@@ -106,12 +106,12 @@
 				C3F8A0A324FFDA4300359628 /* AppDelegate.swift */,
 				C3F8A0A524FFDA4300359628 /* SceneDelegate.swift */,
 				C3F8A0A724FFDA4300359628 /* ViewController.swift */,
+				C3F8A0D624FFDAA600359628 /* DemoTableViewCell.swift */,
 				C3F8A0A924FFDA4300359628 /* Main.storyboard */,
 				C3F8A0AF24FFDA4500359628 /* Assets.xcassets */,
 				C3F8A0B124FFDA4500359628 /* LaunchScreen.storyboard */,
 				C3F8A0B424FFDA4500359628 /* Info.plist */,
 				C3F8A0AC24FFDA4300359628 /* MultiSelectionDemo.xcdatamodeld */,
-				C3F8A0D624FFDAA600359628 /* DemoTableViewCell.swift */,
 			);
 			path = MultiSelectionDemo;
 			sourceTree = "<group>";
