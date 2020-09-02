@@ -38,9 +38,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(
-        withIdentifier: "demoCell",
-        for: indexPath)
-        as? DemoTableViewCell
+                withIdentifier: "demoCell",
+                for: indexPath)
+                as? DemoTableViewCell
         else { return UITableViewCell() }
         if indexPath.section == 0 {
             cell.nameLabel.text = animal[indexPath.row]
@@ -66,7 +66,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                    editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         return .none
     }
-
+    
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if section == 0 {
@@ -92,9 +92,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if destinationIndexPath.section == 0 {
             animal.insert(product, at: destinationIndexPath.row)
         }else if sourceIndexPath.section == 1 {
-           birds.insert(product, at: destinationIndexPath.row)
+            birds.insert(product, at: destinationIndexPath.row)
         } else {
-           humans.insert(product, at: destinationIndexPath.row)
+            humans.insert(product, at: destinationIndexPath.row)
         }
         
         /// remove from source
